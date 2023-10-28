@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/SignUp.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+</head>
+<body class="body-color">
+    <center>
+        <form id="signupForm">
+            <h2>Sign Up Form</h2>
+            <label for="empId" class="label-class2">Emp Id:</label>
+            <input type="text" id="empId" name="empId"><br>
+            <label for="name" class="label-class">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="mobile" class="label-class">Mobile:</label>
+            <input type="text" id="mobile" name="mobile"><br>
+            <label for="email" class="label-class">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="userId" class="label-class">User Id:</label>
+            <input type="text" id="userId" name="userId"><br>
+            <label for="password" class="label-class">Password:</label>
+            <input type="password" id="password" name="password"><br>
+            <label for="confirmPassword" class="label-class">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword"><br>
+            <label for="dob" class="date-format">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" class="input-date-format"><br>
+            <div class="g-recaptcha" data-sitekey="6Le91NQoAAAAAPBwX7bxOr3Lbp7LKsWyMV1vQUcp"></div><br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </center>
+    <script src="~/Scripts/SignUp.js"></script>
+    <script src="~/Scripts/GoogleCaptcha.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+﻿body {
+    background: #202020;
+}
+.body-color {
+    background: #202020;
+}
+
+form {
+    width: 550px;
+    height: auto;
+    border: 2px solid #44bd32;
+    border-radius: 20px;
+    outline: none;
+    font-family: Verdana;
+    margin-top: 70px;
+    padding:30px 10px 30px 10px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+input[type=text], input[type=password] {
+    width: 300px;
+    height: auto;
+    border: 1px solid #44bd32;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    margin-top: 10px;
+    background: transparent;
+    color: #fff;
+    font-family: Verdana;
+    font-size:12px;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+    width: 150px;
+    background: linear-gradient(#44bd32,#4cd137);
+    color: #fff;
+    font-family: Verdana;
+    border: none;
+    font-size: 12px;
+}
+.label-class2 {
+    width: 150px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.label-class {
+    width: 150px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 12px;
+}
+    .label-class::after, .date-format::after {
+        content: ' *';
+        color: red;
+    }
+.date-format {
+    position: relative;
+    right: 65px;
+    width: 110px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.input-date-format {
+    position: relative;
+    right: 50px;
+    width: 150px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #44bd32;
+    background: transparent;
+    color:#fff;
+}
+
+p {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.signin p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+a {
+    color: #44bd32;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.fa-eye {
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+    color: #fff;
+}
